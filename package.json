@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "name": "api-storage",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "back": "json-server --watch db.json --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yann Dark",
+  "license": "ISC",
+  "description": ""
+}
